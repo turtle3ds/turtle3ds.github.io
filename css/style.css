@@ -13,6 +13,8 @@ body{
     --boder-color:#aef3de;
 }
 .all {
+    background : url(/IMG/b3.jfif)  no-repeat center center fixed;
+    background-size: cover;
     width: 100%;
     max-width: 1440px;
     height: auto;
@@ -54,7 +56,7 @@ body{
     margin-top: 50px;
     font-size: 50px;
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .line{
     margin-top: 20px;
@@ -78,7 +80,8 @@ body{
 .frame{
     height:auto;
     display: flex;
-    box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 5px;
 }
 .fimg{
     height: 280px;
@@ -105,10 +108,11 @@ body{
     background-image: url(/IMG/bien.jpg);
 }
 .content{
-    text-indent: 20px;
-    font-size: 35px;
+    text-indent: 30px;
+    font-size: 33px;
     height: 280px;
     display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-items: center;
 }
 .section-3 h1{
@@ -227,6 +231,16 @@ body{
     .timeline-frame-1,.timeline-frame-2,.timeline-frame-3{
         height: 200px;
         width: 90%;
+    }
+    .section-1{
+        height: 400px;
+    }
+    .text-banner{
+        width: fit-content;
+        padding-top: 120px;
+    }
+    .find{
+        margin-top: 20px;
     }
     
 }
