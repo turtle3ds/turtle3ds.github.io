@@ -11,8 +11,11 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+input{
+    color: black;
+}
 .form{
-    width: 500px;
+    max-width: 500px;
     position: relative;
     z-index: 1;
     box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 5px 5px;
@@ -48,11 +51,11 @@
 }
 .fl label{
     margin: auto 0;
-    width: 150px;
+    width: 30%;
     font-size: 20px;
 }
 .fl input{
-    width: 300px;
+    width: 60%;
     font-size: 18px;
     border-radius: 5px;
 }
@@ -81,6 +84,7 @@ span{
 .section-2 p{
     font-size: 24px;
     padding-bottom: 10px ;
+    text-align: center;
 }
 .point{
     display: flex;
@@ -105,6 +109,7 @@ textarea{
     height: 100px;
     width: 100%;
     font-size: 16px;
+    color: black;
 }
 .tick input{
     margin-right: 10px;
@@ -120,4 +125,12 @@ button{
 button:hover{
     cursor: pointer;
     
+}
+@media (max-width:576px) {
+    .fl label, label,.intro{
+        font-size: 16px;
+    }
+    input,span{
+        font-size: 15px;
+    }
 }
