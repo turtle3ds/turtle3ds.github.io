@@ -1,5 +1,5 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     color: white;
 }
@@ -16,6 +16,9 @@
   }
   .nav-link.active {
     color: rgb(150, 150, 249) !important; 
+  }
+  .offcanvas-body li{
+    color:#003056;
   }
   .nav-link.active::after{
     content: "";
